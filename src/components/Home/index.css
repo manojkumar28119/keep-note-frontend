@@ -1,0 +1,97 @@
+.main-card{
+    display: flex;
+    padding: 2px;
+ }
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 20%;
+    border-right: 1px solid grey;
+    height: 85vh;
+ }
+.side-item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.side-item-text{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.notes-container{
+    width: 80%;
+}
+.new-note-card{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+.new-note{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.new-title-content-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.note-text{
+    border: none;
+    outline: none;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.note-title{
+    font-weight: 500;
+    font-size: 15px;
+}
+.note-features{
+    display: flex;
+    align-items: center;
+}
+.feature-icon{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.note-bottom-card{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.features-btn{
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.saved-notes-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 15px;
+}
+.note{
+    border: 1px solid #EEEDEB;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+}
+.deleted-notes-card{
+    display: flex;
+    flex-wrap: wrap;
+}

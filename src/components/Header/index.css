@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo-text-card{
+    display: flex;
+    align-items: center;
+ }
+.logo{
+    height: 35px;
+    margin-right: 10px;
+}
+.search-input{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #EEEDEB;
+    width: 350px;
+    padding: 10px;
+  }
+.sign-out-btn{
+    cursor: pointer;
+}
